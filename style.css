@@ -1,4 +1,54 @@
+body{
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 0px;
+    
+}
+section{
+    height: 600px;
+    padding-bottom: 50px;
+}
+.introduce{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+}
+.bold{
+    color: red;
+    font-size: 50px;
+    font-weight:bolder;
+}
+h2{
+    font-size: 30px;
+}
+.block-1{
+    float: left;
+    width: 40%;
+    margin: 0px;
+    padding-top: 60px;
+    
+}
+.extra-ordinary{
+    padding-top: 200px;
+    margin-left: 140px;
+    text-align: justify;
+    width: 42%;
+}
+img{
+    width: 100%;
+}
 p{
-    color:blueviolet ;
-    background-color: aqua;
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+a{ 
+    background-color: rgb(255, 72, 0);
+    padding: 7px 15px;
+    color: white;
+    text-decoration: none;
+
 }
