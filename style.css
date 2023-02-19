@@ -10,9 +10,7 @@ section{
 .introduce{
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
-    background-size: 100%;
-    
-    
+    background-size: cover;
 }
 .bold{
     color: red;
@@ -38,12 +36,12 @@ h2{
 img{
     width: 100%;
 }
-p{
+.programming{
     font-size: 13px;
     color: gray;
     margin-bottom: 30px;
     margin-top: 30px;
-
+    text-align: justify;
 }
 a{ 
     background-color: rgb(255, 72, 0);
@@ -51,4 +49,50 @@ a{
     color: white;
     text-decoration: none;
 
+}
+.block-2{
+    float: left;
+    margin-left: 110px;
+    width: 35%;
+    padding-top: 60px;
+}
+
+.biography{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bio{
+    padding-top: 200px;
+}
+.work{
+    float: left;
+    width: 30%;
+    margin: 130px 10px 0px 20px;
+}
+.last-work{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 100px 0px 100px ;
+}
+.foot{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.footer{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    
+}
+.footing{
+    background-color:rgb(255, 72, 0) ;
+    border-radius: 5px;
+    padding: 20px 20px 40px 20px;
+    margin: 40px 260px;
+}
+.describe{
+    padding: 30px 0px 40px 0px;
 }
