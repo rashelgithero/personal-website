@@ -8,14 +8,16 @@ body{
 }
 #display {
     text-align: right;
-    height: 50px;
+    height: 70px;
     line-height: 70px;
     padding: 16px 8px;
-    font-size: 25px;
-    background-color: rgb(255, 253, 253);
+    font-size: 35px;
+    background-color: rgb(114, 114, 114);
+    color: aliceblue;
+    font-weight: bolder;
     width: 400px;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 
 }
 .calculator{
@@ -23,10 +25,12 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 500px;
-    width: 500px;
+    height: 450px;
+    width: 450px;
     border: 2px gainsboro solid;
+    box-shadow: 15px 5px 80px rgb(140, 139, 139);
     padding: 0 50px;
+    border-radius: 15px;
 }
 .line{
    
@@ -34,17 +38,18 @@ body{
     grid-template-columns: repeat(4, 1fr);
     margin: 0;
     padding: 0;
-    grid-gap: 20px;
+    grid-gap: 30px;
     
 }
 .line input{
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+    box-shadow: 10px 15px 20px gray;
+    background-color: none;
+    font-size: 20px;
 }
-.calculator ul li button{
-    height: 70px;
-    width: 80px;
-    background-color: rgb(255, 255, 255);
-    cursor: pointer;
+.btn-primary{
+    background-color: black;
+    border: none;
 }
 .calculator .col-md-3{
     left: 0;
